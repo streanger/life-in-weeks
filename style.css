@@ -1,0 +1,55 @@
+/* added by me */
+
+body{  
+  padding: 0; 
+  margin: 0 
+} 
+
+
+.center-bar {
+  text-align: center;
+}
+
+/* Create two equal columns that floats next to each other */
+.column-left {
+  float: left;
+  width: 80%;
+  /* height: 100%; */
+  padding: 0px;
+  /* height: 600px; /* Should be removed. Only for demonstration */
+  /* background-color: #888; */
+  /* background-color: #6699cc; */
+  /* background-color: #111; */
+  background-color: #DDDDDD;
+}
+
+.column-right {
+  float: left;
+  width: 20%;
+  height: 100%;
+  padding: 0px;
+  /* height: 600px; /* Should be removed. Only for demonstration */
+  /* background-color: #888; */
+  /* background-color: #6699cc; */
+  /* background-color: #111; */
+  background-color: #DDDDDD;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
